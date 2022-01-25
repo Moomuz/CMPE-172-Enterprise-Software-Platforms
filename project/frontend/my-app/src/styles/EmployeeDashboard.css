@@ -1,0 +1,71 @@
+/* all pages of website*/
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+/* wrapper content */
+.wrapper {
+  width: 70%;
+  min-height: 40rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  /* background-color: red; */
+}
+
+/* menu content in wrapper */
+.employeeDashboardContent {
+  width: 100%;
+}
+
+/* Log Out Button */
+.logoutButton {
+  margin-top: 1rem;
+}
+
+/* section titles (Password Change Requests, All Orders) */
+.sectionTitle {
+  font-size: 1.75rem;
+  border-bottom: 1px solid rgb(151, 151, 151);
+  line-height: 0;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+/* Password Change Requests */
+.passChangeApproved {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  font-style: italic;
+}
+
+/* All Orders Table */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+td, th {
+  border: 1px solid rgb(151, 151, 151);
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(212, 212, 212);
+}
+
+.allowPassChange {
+  width: auto
+}
+
+.passChangeSubmit {
+  margin-left: 1rem;
+}

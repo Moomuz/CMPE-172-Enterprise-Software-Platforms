@@ -1,0 +1,9 @@
+apiVersion: "extensions/v1beta1"
+kind: "Ingress"
+metadata:
+  name: "starbucks-api-ingress"
+  namespace: "default"
+spec:
+  backend:
+    serviceName: "starbucks-api-service"
+    servicePort: 8080

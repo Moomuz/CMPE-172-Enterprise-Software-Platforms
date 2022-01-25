@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: payment-api-deployment
+  namespace: default
+spec:
+  selector:
+    matchLabels:
+      name: payment-api
+  replicas: 2 # tells deployment to run 2 pods matching the template
+  template: # create pods using pod definition in this template
+    metadata:
+      # unlike pod.yaml, the name is not included in the meta data as a unique name is
+      # generated from the deployment name
+      labels:
+        name: payment-api
+    spec:
+      containers:
+      - name: payment-api
+        image: zanagen/payment-api
+        ports:
+        - containerPort: 8080
+        env:
+            -name: MYSQL_HOST
+            value: "10:.107.192.4"

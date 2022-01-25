@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+    <!--link to SignUp.css stylesheet-->
+    <head>
+        <title>Gong Cha - Employee Login</title>
+        <link rel="stylesheet" href="../static/Login.css">
+    </head>
+
+    <body>
+        <!--Gong Cha Logo above navbar-->
+        <div class="gonchaLogo">
+            <a href="Home.html"><img class="gongchaLogoImg" src="../static/images/gongchaLogo.jpg" alt="Gong Cha Logo"></a>
+        </div>
+
+        <!--navbar-->
+        <div class="navbar">
+            <ul class="navbarList">
+                <li class="navbarItem"><a href="Home.html">Home</a></li>
+                <li class="navbarItem"><a href="Menu.html">Menu</a></li>
+                <li class="navbarItem"><a href="CustomerLogin.html">Customer Login</a></li>
+                <li class="navbarItem"><a href="EmployeeLogin.html">Employee Login</a></li>
+            </ul>
+        </div>
+
+        <!--main content-->
+        <div class="wrapper">
+            <div class="menuContent">
+                <h2>Employee Log In</h2>
+
+                <form action="/action_page.php">
+                    <label for="lname">Username:</label><br>
+                    <input type="text" id="uname" name="uname" value="JohnDoe101" size="70"><br><br>
+
+                    <label for="lname">Password:</label><br>
+                    <input type="password" id="pass" name="pass" value="password" size="70"><br><br>
+                    
+                    <br>
+
+                    <input class="submit" type="submit" value="Submit">
+                </form> 
+            </div>
+        </div>
+    </body>
+</html>

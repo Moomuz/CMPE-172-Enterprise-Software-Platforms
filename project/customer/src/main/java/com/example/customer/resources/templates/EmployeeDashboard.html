@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+    <!--link to SignUp.css stylesheet-->
+    <head>
+        <title>Gong Cha - Employee Dashboard</title>
+        <link rel="stylesheet" href="../static/EmployeeDashboard.css">
+    </head>
+
+    <body>
+        <!--Gong Cha Logo above navbar-->
+        <div class="gonchaLogo">
+            <a href="Home.html"><img class="gongchaLogoImg" src="../static/images/gongchaLogo.jpg" alt="Gong Cha Logo"></a>
+        </div>
+
+        <!--navbar-->
+        <div class="navbar">
+            <ul class="navbarList">
+                <li class="navbarItem"><a href="Home.html">Home</a></li>
+                <li class="navbarItem"><a href="Menu.html">Menu</a></li>
+                <li class="navbarItem"><a href="CustomerLogin.html">Customer Login</a></li>
+                <li class="navbarItem"><a href="EmployeeLogin.html">Employee Login</a></li>
+            </ul>
+        </div>
+
+        <!--main content-->
+        <div class="wrapper">
+            <div class="employeeDashboardContent">
+                
+                <!--Password Change Requests title-->
+                <div class="sectionTitle">
+                    <p>Password Change Requests</p>
+                </div>
+                
+                <!--Password Change Requests table-->
+                <table>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Email</th>
+                        <th>Allow Password Change</th>
+                    </tr>
+                    <tr>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>john@doe.com</td>
+                        <td><button type="button">Allow Change</button></td>
+                    </tr>
+                </table>
+
+                <!--All Orders title-->
+                <div class="sectionTitle">
+                    <p>All Orders</p>
+                </div>
+
+                <!--All Orders table-->
+                <table>
+                    <tr>
+                        <th>Order ID</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Drink</th>
+                        <th>Drink Size</th>
+                        <th>Milk/No Milk</th>
+                    </tr>
+                    <tr>
+                        <td>12345</td>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>Green Tea</td>
+                        <td>Large</td>
+                        <td>Milk</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

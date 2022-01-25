@@ -1,0 +1,48 @@
+version: "3"
+
+services:
+  customers:
+    image: gongcha-customers
+    volumes:
+      - /tmp:/tmp
+    networks:
+      - network
+    ports:
+      - 8080
+    restart: always
+  lb:
+    image: eeacms/haproxy
+    depends_on:
+      - customers
+    ports:
+      - "80:5000"
+      - "1936:1936"
+    environment:
+      BACKENDS: "customers"
+      BACKENDS_PORT: "8090"
+      DNS_ENABLED: "true"
+      COOKIES_ENABLED: "false"
+      LOG_LEVEL: "info"
+    networks:
+      - network
+  db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'customers-db'
+      MYSQL_USER: 'user'
+      MYSQL_PASSWORD: 'password'
+      MYSQL_ROOT_PASSWORD: 'password'
+    ports:
+      - '3306:3306'
+    expose:
+      - '3306'
+    volumes:
+      - my-db:/var/lib/mysql
+volumes:
+  my-db:
+    external: false
+networks:
+  network:
+    driver: bridge
+

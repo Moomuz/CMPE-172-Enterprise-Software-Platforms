@@ -1,0 +1,55 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+    ingress.kubernetes.io/backends: '{"k8s1-04366963-default-spring-gumball-service-8080-27819be0":"HEALTHY"}'
+    ingress.kubernetes.io/forwarding-rule: k8s2-fr-o1jwiw6b-default-spring-gumball-ingress-jydfkjnf
+    ingress.kubernetes.io/target-proxy: k8s2-tp-o1jwiw6b-default-spring-gumball-ingress-jydfkjnf
+    ingress.kubernetes.io/url-map: k8s2-um-o1jwiw6b-default-spring-gumball-ingress-jydfkjnf
+  creationTimestamp: "2021-12-13T03:41:15Z"
+  finalizers:
+  - networking.gke.io/ingress-finalizer-V2
+  generation: 1
+  managedFields:
+  - apiVersion: extensions/v1beta1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:spec:
+        f:backend:
+          .: {}
+          f:serviceName: {}
+          f:servicePort: {}
+    manager: GoogleCloudConsole
+    operation: Update
+    time: "2021-12-13T03:41:15Z"
+  - apiVersion: networking.k8s.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:ingress.kubernetes.io/backends: {}
+          f:ingress.kubernetes.io/forwarding-rule: {}
+          f:ingress.kubernetes.io/target-proxy: {}
+          f:ingress.kubernetes.io/url-map: {}
+        f:finalizers:
+          .: {}
+          v:"networking.gke.io/ingress-finalizer-V2": {}
+      f:status:
+        f:loadBalancer:
+          f:ingress: {}
+    manager: glbc
+    operation: Update
+    time: "2021-12-13T03:42:06Z"
+  name: spring-gumball-ingress
+  namespace: default
+  resourceVersion: "89847"
+  uid: a8c10260-ab40-4e68-aadf-ff4e846488ff
+spec:
+  backend:
+    serviceName: spring-gumball-service
+    servicePort: 8080
+status:
+  loadBalancer:
+    ingress:
+    - ip: 34.149.40.41

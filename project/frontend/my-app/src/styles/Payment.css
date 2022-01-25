@@ -1,0 +1,64 @@
+/* all pages of website*/
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    margin-bottom: 2rem;
+    /* width: 50rem; */
+}
+
+/* Order Details */
+.orderTable {
+    border: none;
+    background-color: white;
+}
+
+.orderRow {
+    border: none;
+    background-color: white;
+}
+
+.orderKey {
+    border: none;
+    background-color: white;
+    text-align: right;
+    padding-right: 2rem;
+    width: 20rem;
+}
+
+.orderData {
+    border: none;
+    background-color: white;
+    width: 20rem;
+}
+
+/* section title (Order and Payment Information) */
+.paymentSectionTitle {
+    font-size: 1.75rem;
+    border-bottom: 1px solid rgb(151, 151, 151);
+    line-height: 0;
+    padding-top: 2rem;
+    text-align: center;
+    width: 46rem;
+}
+
+.payment-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.rightSide {
+    margin-left: 2rem;
+}
+
+.paymentSubmit {
+    float: right;
+    margin-right: -8rem;
+    margin-bottom: 3rem;
+}

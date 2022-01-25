@@ -1,1 +1,1 @@
-# CMPE-172-Enterprise-Software-Platforms
+# CMPE 172 Git Repo

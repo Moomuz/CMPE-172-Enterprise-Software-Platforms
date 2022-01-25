@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html>
+    <!--link to SignUp.css stylesheet-->
+    <head>
+        <title>Gong Cha - Customer Dashboard</title>
+        <link rel="stylesheet" href="../static/CustomerDashboard.css">
+    </head>
+
+    <body>
+        <!--Gong Cha Logo above navbar-->
+        <div class="gonchaLogo">
+            <a href="Home.html"><img class="gongchaLogoImg" src="../static/images/gongchaLogo.jpg" alt="Gong Cha Logo"></a>
+        </div>
+
+        <!--navbar-->
+        <div class="navbar">
+            <ul class="navbarList">
+                <li class="navbarItem"><a href="Home.html">Home</a></li>
+                <li class="navbarItem"><a href="Menu.html">Menu</a></li>
+                <li class="navbarItem"><a href="CustomerLogin.html">Customer Login</a></li>
+                <li class="navbarItem"><a href="EmployeeLogin.html">Employee Login</a></li>
+            </ul>
+        </div>
+
+        <!--main content-->
+        <div class="wrapper">
+            <div class="menuContent">
+
+                <!--Request Password Change Title-->
+                <div class="sectionTitle">
+                    <p>Request Password Change</p>
+                </div>
+
+                <div class="passChangeSection">
+                    <form action="/action_page.php">
+                        <label for="lname">Current Password:</label><br>
+                        <input type="password" id="uname" name="uname" value="password" size="70"><br><br>
+    
+                        <label for="lname">New Password:</label><br>
+                        <input type="password" id="pass" name="pass" value="password1" size="70"><br><br>
+                        
+                        <br>
+    
+                        <input class="submit" type="submit" value="Submit">
+                    </form> 
+                </div>
+
+                <!--All Orders title-->
+                <div class="sectionTitle">
+                    <p>Past Orders</p>
+                </div>
+
+                <!--All Orders table-->
+                <table>
+                    <tr>
+                        <th>Order ID</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Drink</th>
+                        <th>Drink Size</th>
+                        <th>Milk/No Milk</th>
+                    </tr>
+                    <tr>
+                        <td>12345</td>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>Green Tea</td>
+                        <td>Large</td>
+                        <td>Milk</td>
+                    </tr>
+                </table>
+
+                <!--Order Title-->
+                <div class="sectionTitle">
+                    <p>Order Here</p>
+                </div>
+
+                <!--GREEN TEA-->
+                <div class="menuItem">
+                    <!--drink item + name-->
+                    <img class="menuItemImage" src="../static/images/greenTea.jpg" alt="Green Tea">
+
+                    <div class="menuDetails">
+                        <h3 class="menuItemName">Green Tea</h3>
+                        <form action="/action_page.php">
+                            <!--drink size-->
+                            <p>Drink size:</p>
+
+                            <input type="radio" id="medium" name="drink_size" value="Medium">
+                            <label for="html">Medium $4.00</label>
+
+                            <input type="radio" id="large" name="drink_size" value="Large">
+                            <label for="html">Large $5.00</label><br>
+
+                            <!--milk/no milk-->
+                            <p>Milk/no milk:</p>
+  
+                            <input type="radio" id="milk" name="with_milk" value="Milk">
+                            <label for="html">Milk?</label><br>
+
+                            <br>
+
+                            <input type="button" value="Add to cart">
+                        </form>
+                    </div>
+                </div>
+
+                <!--BLACK TEA-->
+                <div class="menuItem">
+                    <!--drink item + name-->
+                    <img class="menuItemImage" src="../static/images/blackTea.jpg" alt="Black Tea">
+
+                    <div class="menuDetails">
+                        <h3 class="menuItemName">Black Tea</h3>
+                        <form action="/action_page.php">
+                            <!--drink size-->
+                            <p>Drink size:</p>
+
+                            <input type="radio" id="medium" name="drink_size" value="Medium">
+                            <label for="html">Medium $4.25</label>
+
+                            <input type="radio" id="large" name="drink_size" value="Large">
+                            <label for="html">Large $5.00</label><br>
+
+                            <!--milk/no milk-->
+                            <p>Milk/no milk:</p>
+  
+                            <input type="radio" id="milk" name="with_milk" value="Milk">
+                            <label for="html">Milk?</label><br>
+
+                            <br>
+
+                            <input type="button" value="Add to cart">
+                        </form>
+                    </div>
+                </div>
+
+                <!--THAI TEA-->
+                <div class="menuItem">
+                    <!--drink item + name-->
+                    <img class="menuItemImage" src="../static/images/thaiTea.jpg" alt="Thai Tea">
+
+                    <div class="menuDetails">
+                        <h3 class="menuItemName">Thai Tea</h3>
+                        <form action="/action_page.php">
+                            <!--drink size-->
+                            <p>Drink size:</p>
+
+                            <input type="radio" id="medium" name="drink_size" value="Medium">
+                            <label for="html">Medium $4.50</label>
+
+                            <input type="radio" id="large" name="drink_size" value="Large">
+                            <label for="html">Large $5.00</label><br>
+
+                            <!--milk/no milk-->
+                            <p>Milk/no milk:</p>
+  
+                            <input type="radio" id="milk" name="with_milk" value="Milk">
+                            <label for="html">Milk?</label><br>
+
+                            <br>
+
+                            <input type="button" value="Add to cart">
+                        </form>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </body>
+</html>

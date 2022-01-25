@@ -1,0 +1,52 @@
+SAMPLE INPUT DATA
+
+VALID DATA
+
+John
+Doe
+542 W. 15th Street
+New York
+NY
+10001
+(408) 123-0456
+4622-9431-2701-3713
+December
+2022
+043
+john@example.com
+special instructions
+
+INVALID DATA
+
+John
+Doe
+542 W. 15th Street
+New York
+dd
+0000-00000
+(000) 000-0000
+1111-1111-1111-1111 (OR 075032750360230124-85)
+sept
+22
+43
+john@example.com
+special instructions
+
+
+SAMPLE VALID PAYMENTSCOMMAND
+
+{
+    "firstname": "John",
+    "lastname": "Doe",
+    "address": "542 W. 15th Street",
+    "city" : "New York",
+    "state" : "NY",
+    "zip" : "10001",
+    "phonenumber" : "(408) 123-0456",
+    "cardnumber" : "4622-9431-2701-3713",
+    "expmonth" : "December",
+    "expyear" : "2022",
+    "cvv" : "043",
+    "email" : "john@example.com",
+    "notes" : "special instructions"
+}
