@@ -59,7 +59,7 @@ Before starting, download and extract the [given lab files](https://github.com/p
    http://localhost:8080/hello?name=cmpe172
    ```
    A screenshot of the Spring Demo Application is shown below:
-   ![initializr screenshot](https://github.com/nguyensjsu/cmpe172-moomuz/blob/main/labs/lab1/images/initializr%20screenshot.png)
+   ![initializr screenshot](https://github.com/Moomuz/CMPE-172-Enterprise-Software-Platforms/blob/main/labs/lab1/images/initializr%20screenshot.png)
 
 ## Spring Demo App Using Spring Tools in Visual Studio Code
 **Steps:**
@@ -197,7 +197,7 @@ A screenshot of the Spring Demo Application using Visual Studio Code is shown be
    Click on *Services & Ingress>spring-hello* and click on the IP address next to *External endpoints*. A new tab will open with a Whitelabel Error Page. Insert */hello?name=cmpe172* after the IP address in the address bar and refresh the page. The *Hello cmpe172!* should appear.
    
 A screenshot of the Spring Demo Application using Visual Studio Code is shown below:
-![kubernetes screenshot](https://github.com/Moomuz/CMPE-172-Enterprise-Software-Platforms/blob/main/labs/lab1/images/kubernetes%20screenshot.pngg)
+![kubernetes screenshot](https://github.com/Moomuz/CMPE-172-Enterprise-Software-Platforms/blob/main/labs/lab1/images/kubernetes%20screenshot.png)
 
 4. End the cluster by going to *Clusters*, clicking on the checkbox next to your cluster, and selecting *Delete* at the top of the page. The deletion process will take a few minutes.
 
