@@ -109,7 +109,7 @@ Before starting, download and extract the [given lab files](https://github.com/p
    http://localhost:8080/hello?name=cmpe172
    ```
    A screenshot of the Spring Demo Application using Visual Studio Code is shown below:
-![vscode screenshot](https://github.com/nguyensjsu/cmpe172-moomuz/blob/main/labs/lab1/images/vscode%20screenshot.png)
+![vscode screenshot](https://github.com/Moomuz/CMPE-172-Enterprise-Software-Platforms/blob/main/labs/lab1/images/vscode%20screenshot.png)
 
 ## Spring Demo App Configured for Docker
 **Steps:**
@@ -173,7 +173,7 @@ Before starting, download and extract the [given lab files](https://github.com/p
 4. Open Docker Desktop. The *spring-hello* container should already be running. Click on *spring-hello*>*Open in Browser*. Your machine's default browser should open and have the application running on localhost.
 
 A screenshot of the Spring Demo Application using Visual Studio Code is shown below:
-![docker screenshot](https://github.com/nguyensjsu/cmpe172-moomuz/blob/main/labs/lab1/images/docker%20screenshot.png)
+![docker screenshot](https://github.com/Moomuz/CMPE-172-Enterprise-Software-Platforms/blob/main/labs/lab1/images/docker%20screenshot.png)
 
 5. For future reference, upload the docker image to your Docker Hub account. On the same ConEmu terminal, run the following lines to login into your Docker Hub, then upload your built *spring-hello* Docker image:
    ```
@@ -197,7 +197,7 @@ A screenshot of the Spring Demo Application using Visual Studio Code is shown be
    Click on *Services & Ingress>spring-hello* and click on the IP address next to *External endpoints*. A new tab will open with a Whitelabel Error Page. Insert */hello?name=cmpe172* after the IP address in the address bar and refresh the page. The *Hello cmpe172!* should appear.
    
 A screenshot of the Spring Demo Application using Visual Studio Code is shown below:
-![kubernetes screenshot](https://github.com/nguyensjsu/cmpe172-moomuz/blob/main/labs/lab1/images/kubernetes%20screenshot.png)
+![kubernetes screenshot](https://github.com/Moomuz/CMPE-172-Enterprise-Software-Platforms/blob/main/labs/lab1/images/kubernetes%20screenshot.pngg)
 
 4. End the cluster by going to *Clusters*, clicking on the checkbox next to your cluster, and selecting *Delete* at the top of the page. The deletion process will take a few minutes.
 
@@ -257,4 +257,4 @@ A screenshot of the Spring Demo Application using Visual Studio Code is shown be
    http://localhost:8080/hello?name=cmpe172
    ```
    A screenshot of the Spring Demo Application is shown below:
-   ![intellij screenshot](https://github.com/nguyensjsu/cmpe172-moomuz/blob/main/labs/lab1/images/intellij%20screenshot.png)
+   ![intellij screenshot](https://github.com/Moomuz/CMPE-172-Enterprise-Software-Platforms/blob/main/labs/lab1/images/intellij%20screenshot.png)
