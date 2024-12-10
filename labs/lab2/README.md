@@ -124,8 +124,8 @@
    Click on *Services & Ingress>spring-mvc* and click on the IP address next to *External endpoints*. A new tab will open with a Whitelabel Error Page. Insert */hello?name=cmpe172* after the IP address in the address bar and refresh the page. The *Hello cmpe172!* should appear.
    
    Screenshots of the Spring MVC Application using Google Cloud are shown below:
-   ![spring mvc 1](https://github.com/nguyensjsu/cmpe172-moomuz/blob/main/labs/lab2/images/spring%20mvc%201.png)
-   ![spring mvc 2](https://github.com/nguyensjsu/cmpe172-moomuz/blob/main/labs/lab2/images/spring%20mvc%202.png)
+   ![spring mvc 1](https://github.com/Moomuz/CMPE-172-Enterprise-Software-Platforms/blob/main/labs/lab2/images/spring%20mvc%201.png)
+   ![spring mvc 2](https://github.com/Moomuz/CMPE-172-Enterprise-Software-Platforms/blob/main/labs/lab2/images/spring%20mvc%202.png)
 
 9. End the cluster by going to *Clusters*, clicking on the checkbox next to your cluster, and selecting *Delete* at the top of the page. The deletion process will take a few minutes.
 
@@ -167,7 +167,7 @@
    Now, open your *spring-test* folder in the file explorer, and navigate to *spring-test/build/reports/tests/test*. Click on *index.html*, and your default browser should automatically open. On the webpagem click on the *Classes* button, and a full test report should appear. 
    
    A screenshot of the Spring Test Application is shown below:
-   ![spring test](https://github.com/nguyensjsu/cmpe172-moomuz/blob/main/labs/lab2/images/spring%20test.png)
+   ![spring test](https://github.com/Moomuz/CMPE-172-Enterprise-Software-Platforms/blob/main/labs/lab2/images/spring%20test.png)
    
 ## Spring Lombok
 
@@ -199,10 +199,10 @@
    On your browser of choice (I used Google Chrome), go to *http://localhost:8080/hello?name=cmpe172*, and *Hello cmpe172!* should appear on the webpage. Go back to your terminal, and a test report should appear. 
    
    Screenshots of the Spring Lombok Application is shown below:
-   ![spring lombok 1](https://github.com/nguyensjsu/cmpe172-moomuz/blob/main/labs/lab2/images/spring%20lombok%201.png)
-   ![spring lombok 2](https://github.com/nguyensjsu/cmpe172-moomuz/blob/main/labs/lab2/images/spring%20lombok%202.png)
-   ![spring lombok 3](https://github.com/nguyensjsu/cmpe172-moomuz/blob/main/labs/lab2/images/spring%20lombok%203.png)
-   ![spring lombok 4](https://github.com/nguyensjsu/cmpe172-moomuz/blob/main/labs/lab2/images/spring%20lombok%204.png)
+   ![spring lombok 1](https://github.com/Moomuz/CMPE-172-Enterprise-Software-Platforms/blob/main/labs/lab2/images/spring%20lombok%201.png)
+   ![spring lombok 2](https://github.com/Moomuz/CMPE-172-Enterprise-Software-Platforms/blob/main/labs/lab2/images/spring%20lombok%202.png)
+   ![spring lombok 3](https://github.com/Moomuz/CMPE-172-Enterprise-Software-Platforms/blob/main/labs/lab2/images/spring%20lombok%203.png)
+   ![spring lombok 4](https://github.com/Moomuz/CMPE-172-Enterprise-Software-Platforms/blob/main/labs/lab2/images/spring%20lombok%204.png)
   
 
 **QUESTION: How does the Output verify your understanding of the Feature being tested?**
